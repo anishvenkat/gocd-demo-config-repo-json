@@ -39,7 +39,7 @@
               "pipeline": "build",
              "stage": "build",
              "job": "build",
-             "is_source_a_file": yes,
+             "is_source_a_file": true,
               "source": "sample.txt",
                "destination": ""
             }
