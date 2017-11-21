@@ -34,12 +34,14 @@
           "timeout": 0,
           "tasks": [
             {
-              "type": "exec",
-              "run_if": "passed",
-              "on_cancel" : null,
-              "command": "./build.sh",
-              "arguments": [],
-              "working_directory": null
+              "type": "fetch",
+              "run_if": "any",
+              "pipeline": "build",
+             "stage": "build",
+             "job": "build",
+             "is_source_a_file": yes,
+              "source": "sample.txt",
+               "destination": ""
             }
           ]
         }
