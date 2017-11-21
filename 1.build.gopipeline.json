@@ -21,7 +21,13 @@
           "environment_variables": [],
           "tabs": [],
           "resources": [],
-          "artifacts": [],
+          "artifacts": [
+          {
+           "source": "sample.txt",
+           "destination": "",
+            "type": "build"
+    }
+          ],
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
